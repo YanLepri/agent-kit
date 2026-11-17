@@ -1,4 +1,4 @@
-# singular-agent
+# agent-kit
 
 Precisa do Rulesync na máquina: `npm install -g rulesync`. Também Node.js 22, pnpm, o comando `codegraph` no PATH, Docker em execução (SonarQube) e Chrome (DevTools).
 
