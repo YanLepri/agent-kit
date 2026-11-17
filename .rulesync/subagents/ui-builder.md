@@ -1,7 +1,10 @@
 ---
 name: ui-builder
 description: Interface builder with shadcn/ui, UX/UI practice, and Penpot design integration. Use proactively when the user asks for a screen, component, form, table, dashboard, layout, user flow, design system, accessibility, or mentions shadcn, Tailwind, Radix, Penpot, a prototype, or a wireframe. Also for converting a Penpot design into React components.
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - shadcn
   - penpot-mcp

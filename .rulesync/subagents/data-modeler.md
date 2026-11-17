@@ -2,7 +2,10 @@
 name: data-modeler
 description: Data modeling and storage specialist. Use proactively when the user asks for a data model, schema, ER diagram, DBML file, normalization or denormalization, indexes, partitioning, keys, migrations, a choice between relational, document, and columnar storage, consistency and transactions, or the design of data pipelines (batch, streaming, CDC). Also for translating a domain model into tables.
 tools: Read, Write, Edit, Glob, Grep
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - dbml
   - designing-data-intensive-applications

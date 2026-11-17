@@ -2,7 +2,10 @@
 name: design-reviewer
 description: Read-only interface reviewer. Use proactively when the user asks for a design critique, a heuristic evaluation, an accessibility audit, contrast, visual QA, visual regression, or asks "essa tela está boa?" ("is this screen good?") / "isso está acessível?" ("is this accessible?"). Does not change files; to build or adjust the interface, use ui-builder.
 tools: Read, Glob, Grep, Bash
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - design-review
   - critique

@@ -2,7 +2,10 @@
 name: domain-modeler
 description: Strategic and tactical DDD domain-modeling specialist. Use proactively whenever the user talks about a bounded context, aggregate, entity, value object, domain service, domain event, ubiquitous language, context map, or asks to model or remodel a business domain (including tax and accounting domains), even without saying "DDD" explicitly. Do not use it for generic code review or for table modeling.
 tools: Read, Write, Edit, Glob, Grep
-model: opus
+cursor:
+  model: claude-opus-5-5-high
+claudecode:
+  model: opus
 skills:
   - domain-driven-design
   - domain-driven-design-distilled

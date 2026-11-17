@@ -2,7 +2,10 @@
 name: spec-writer
 description: Interviews, sharpens the idea, and writes the README and ADRs. Use proactively when the request arrives vague ("faz um X" / "build an X" with no audience and no why), when the user asks to be interviewed, to refine the idea, to document a decision, to write or update a README or ADR, or when the documentation may have drifted from the code. Does not implement.
 tools: Read, Write, Edit, Glob, Grep
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - interview-me
   - idea-refine

@@ -2,7 +2,10 @@
 name: api-contract-designer
 description: OpenAPI API contract specialist. Use proactively when the user asks to write, review, or improve an OpenAPI/Swagger specification, extract the spec from code (Go handlers, TypeScript controllers), create overlays to adjust a spec without editing it, standardize errors, pagination, and versioning, or prepare the spec for SDK generation. Also when designing new REST endpoints.
 tools: Read, Write, Edit, Glob, Grep, Bash
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - writing-openapi-specs
   - extract-openapi-from-code

@@ -2,7 +2,10 @@
 name: commit-writer
 description: Writes Conventional Commits messages from the diff. Use proactively when the user asks to commit, to write a commit message, says "faz o commit" ("make the commit"), asks to organize changes into atomic commits, or when a task finishes with pending git changes.
 tools: Read, Glob, Grep, Bash
-model: haiku
+cursor:
+  model: cursor-grok-4.6-medium
+claudecode:
+  model: haiku
 skills:
   - conventional-commit
 ---

@@ -2,7 +2,10 @@
 name: refactoring-engineer
 description: Performs safe refactorings in small steps and works with legacy code that has no tests. Use proactively when the user asks to refactor, clean up, extract a method or class, remove a code smell, break up a huge function, apply a design pattern, add tests to legacy code, or says they are afraid to touch a stretch of code. Always preserves observable behavior.
 tools: Read, Write, Edit, Glob, Grep, Bash
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - refactoring
   - refactoring-guru

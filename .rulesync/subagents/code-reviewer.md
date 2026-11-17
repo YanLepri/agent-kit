@@ -2,7 +2,10 @@
 name: code-reviewer
 description: Read-only code reviewer focused on readability, SOLID, construction, and engineering discipline. Use proactively after writing or modifying code, before commits or PRs, and when the user asks for a code review, says "olha esse código" ("look at this code"), asks for a quality analysis, bad names, long functions, error handling, or a code smell in TypeScript or Go. Does not perform refactoring; for that, use refactoring-engineer.
 tools: Read, Glob, Grep, Bash
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - clean-code
   - code-complete

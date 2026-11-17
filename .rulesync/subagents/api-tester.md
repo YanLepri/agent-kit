@@ -2,7 +2,10 @@
 name: api-tester
 description: Creates and runs API tests in .http files with httpyac (HTTP, gRPC, GraphQL, WebSocket). Use proactively when the user asks for an API test, a .http file, to validate a contract against a proto, or to run httpyac. The OpenAPI contract stays with api-contract-designer.
 tools: Read, Write, Edit, Glob, Grep, Bash
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - httpyac
 ---

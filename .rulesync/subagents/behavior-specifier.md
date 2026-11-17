@@ -2,7 +2,10 @@
 name: behavior-specifier
 description: Specifies behavior in BDD before the code. Use proactively when the user asks for behavior, acceptance criteria, examples, scenarios, .feature files, Gherkin, Cucumber, or a review of whether a test still describes the business rule. Writes the specification; does not implement the feature.
 tools: Read, Write, Edit, Glob, Grep, Bash
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - bdd
 ---

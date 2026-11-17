@@ -2,7 +2,10 @@
 name: diagram-writer
 description: Generates Mermaid diagrams from code, documentation, or a description. Use proactively when the user asks for a diagram, flowchart, sequence diagram, class diagram, ER diagram, state diagram, C4 diagram, context map, says "desenha isso" ("draw this") or "documenta esse fluxo visualmente" ("document this flow visually"), or when an architecture or process explanation would be clearer with a visual.
 tools: Read, Write, Edit, Glob, Grep
-model: haiku
+cursor:
+  model: cursor-grok-4.6-medium
+claudecode:
+  model: haiku
 skills:
   - mermaid-diagrams
 ---

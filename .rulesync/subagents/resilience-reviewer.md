@@ -2,7 +2,10 @@
 name: resilience-reviewer
 description: Read-only production-readiness and resilience reviewer. Use proactively when the user talks about timeout, retry, circuit breaker, bulkhead, backpressure, cascading failure, integration with an external service (SEFAZ, government APIs, ERPs), deploy, observability, health check, capacity, or asks "isso aguenta produção?" ("will this hold up in production?"). Also before putting integrations and ETL jobs into production.
 tools: Read, Glob, Grep, Bash
-model: sonnet
+cursor:
+  model: grok-4.7-high
+claudecode:
+  model: sonnet
 skills:
   - release-it
 ---

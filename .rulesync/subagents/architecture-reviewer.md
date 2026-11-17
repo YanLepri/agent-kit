@@ -2,7 +2,10 @@
 name: architecture-reviewer
 description: Read-only architecture reviewer. Use proactively when the user asks for an architecture review, an analysis of dependencies between layers or modules, a coupling assessment, a dependency-rule violation, a choice of organization pattern (service layer, repository, unit of work, domain model vs transaction script), or asks "essa estrutura está boa?" ("is this structure sound?"). Produces a report; never changes files.
 tools: Read, Glob, Grep, Bash
-model: opus
+cursor:
+  model: claude-opus-5-5-high
+claudecode:
+  model: opus
 skills:
   - clean-architecture
   - patterns-of-enterprise-application-architecture
