@@ -1,0 +1,332 @@
+{
+  "lockfileVersion": 1,
+  "sources": {
+    "ar27111994/penpot-mcp": {
+      "requestedRef": "main",
+      "resolvedRef": "c1a87cdc6d77703649b28f712e7b7466798b9f4e",
+      "resolvedAt": "2026-11-16T19:35:15.306Z",
+      "skills": {
+        "penpot-mcp": {
+          "integrity": "sha256-7a5d4f75f63ffac57b2f8985b6838c21b33dd41a087642e68898e84f083551b8"
+        }
+      },
+      "skillSelection": [
+        "penpot-mcp"
+      ],
+      "skillsPath": "."
+    },
+    "ciembor/agent-rules-books": {
+      "requestedRef": "main",
+      "resolvedRef": "893a88a6fce3a80c565bf39ac65021b43a8b2990",
+      "resolvedAt": "2026-11-16T19:40:41.061Z",
+      "skills": {
+        "a-philosophy-of-software-design": {
+          "integrity": "sha256-c56037e505ff65aa555c99f35aa56ad61f589693390199ca29ca223b68eab621"
+        },
+        "clean-architecture": {
+          "integrity": "sha256-5e33b056082f5fe5407cd935f694c4acc1539e1016f989eb56a7ede210d18382"
+        },
+        "clean-code": {
+          "integrity": "sha256-fc9e4f008748e0bf0111dd630a2b6d03944376574033b8b66d32f657580905b9"
+        },
+        "code-complete": {
+          "integrity": "sha256-39e3aea5f4566c9a0be8c345ffbfb333a277ea0a77b2ca713911623ec012cb44"
+        },
+        "designing-data-intensive-applications": {
+          "integrity": "sha256-24c55eb5b88f656bb363f47880c58efb759c2d577960374b0f4a287fe7a93f20"
+        },
+        "domain-driven-design": {
+          "integrity": "sha256-1b070e5bab2e40b049617b9150cf8cee852edc6622388a3780acc221a3fed9da"
+        },
+        "domain-driven-design-distilled": {
+          "integrity": "sha256-c14f0b658b5123853a761bf36cd5a3cd794f074a92b1d11e79d58152af7ba276"
+        },
+        "implementing-domain-driven-design": {
+          "integrity": "sha256-b2165f6907411676050bfc857a9bb90bed62eb26f606f92e124ca8ec117906bf"
+        },
+        "patterns-of-enterprise-application-architecture": {
+          "integrity": "sha256-6752bb0031b77dbda24afc317a35499059531c5ce77fd3e6404e315a7225d426"
+        },
+        "refactoring": {
+          "integrity": "sha256-da01366536981e286515cf2f96f12dbfce708405df378c1a13e878afce1fd642"
+        },
+        "refactoring-guru": {
+          "integrity": "sha256-c4e0a3ccc0071ab07785f27b9d3eb304efe663fd4e746b1eed04ca0009ba4b68"
+        },
+        "release-it": {
+          "integrity": "sha256-e07f0730c6c6eac6d91454e80ee3e5c3964768dbb5426311d64aea15d176fa8e"
+        },
+        "the-pragmatic-programmer": {
+          "integrity": "sha256-88d0bc1848b1ccdd9c71358390780d0d351de49c4ec27aea7c0f31dec8457bdf"
+        },
+        "working-effectively-with-legacy-code": {
+          "integrity": "sha256-f542cc3eebfa56749a882d15b5f3a26c74624a98a4b99ad3011258d8856ea6ab"
+        }
+      },
+      "skillSelection": [
+        "a-philosophy-of-software-design",
+        "clean-architecture",
+        "clean-code",
+        "code-complete",
+        "designing-data-intensive-applications",
+        "domain-driven-design",
+        "domain-driven-design-distilled",
+        "implementing-domain-driven-design",
+        "patterns-of-enterprise-application-architecture",
+        "refactoring",
+        "refactoring-guru",
+        "release-it",
+        "the-pragmatic-programmer",
+        "working-effectively-with-legacy-code"
+      ],
+      "skillsPath": "."
+    },
+    "shadcn/ui": {
+      "requestedRef": "main",
+      "resolvedRef": "e62c9435fff729a175f38983dee73b2cb4f6a069",
+      "resolvedAt": "2026-11-16T19:40:44.127Z",
+      "skills": {
+        "shadcn": {
+          "integrity": "sha256-ac067d4456a34865f385fd8bc9fea0e28c9d6f4d55a54c2386c13338f184f5c9"
+        }
+      },
+      "skillSelection": [
+        "shadcn"
+      ],
+      "skillsPath": "skills"
+    },
+    "chiroro-jr/skills": {
+      "requestedRef": "main",
+      "resolvedRef": "a182a8773d594005afb45890fee48815e5cb2956",
+      "resolvedAt": "2026-11-16T19:40:46.846Z",
+      "skills": {
+        "dbml": {
+          "integrity": "sha256-9b2eea3b1f95958060c7ba23a98432eaae74baf33c4381c83e69b0d1014739c9"
+        }
+      },
+      "skillSelection": [
+        "dbml"
+      ],
+      "skillsPath": "."
+    },
+    "github/awesome-copilot": {
+      "requestedRef": "main",
+      "resolvedRef": "a06ba06d11f41b996f8c246e2a452e1bf3a17950",
+      "resolvedAt": "2026-11-17T15:06:44.375Z",
+      "skills": {
+        "conventional-commit": {
+          "integrity": "sha256-6129e5247ee80810795a8c171653cba71b165ccfcda0163b6e9e0110391d8b07"
+        }
+      },
+      "skillSelection": [
+        "conventional-commit"
+      ],
+      "skillsPath": "skills"
+    },
+    "speakeasy-api/sdk-generation-skills": {
+      "requestedRef": "master",
+      "resolvedRef": "d2eab5991ef881b39a26ab47432cf273c2c1abb5",
+      "resolvedAt": "2026-11-17T15:20:40.283Z",
+      "skills": {
+        "extract-openapi-from-code": {
+          "integrity": "sha256-c7f2d3baa8728cd7278bb309c1f5d1e7b35b5b5a282343830d339d0a57a088c0"
+        },
+        "manage-openapi-overlays": {
+          "integrity": "sha256-20e3b292315b665cefe708fbf09382bc9569e8c6d9fa002d19f504c6ee26d9f7"
+        },
+        "writing-openapi-specs": {
+          "integrity": "sha256-d9059b8dd106e24409ff907d49cda28aac8d85b58cf53892c9471926881d90be"
+        }
+      },
+      "skillSelection": [
+        "extract-openapi-from-code",
+        "manage-openapi-overlays",
+        "writing-openapi-specs"
+      ],
+      "skillsPath": "skills"
+    },
+    "softaworks/agent-toolkit": {
+      "requestedRef": "main",
+      "resolvedRef": "3027f20f3181758385a1bb8c022d4041dfb4de84",
+      "resolvedAt": "2026-11-17T15:22:41.970Z",
+      "skills": {
+        "mermaid-diagrams": {
+          "integrity": "sha256-acf7025974b8e5757b3d9b4ad7c39c26318cb86bbbe06a550080ee57d2b25b12"
+        }
+      },
+      "skillSelection": [
+        "mermaid-diagrams"
+      ],
+      "skillsPath": "skills"
+    },
+    "plugin87/ux-ui-agent-skills": {
+      "requestedRef": "main",
+      "resolvedRef": "f823acedc3ef4e9b2ba944a28fd86fe2abdde427",
+      "resolvedAt": "2026-11-17T15:28:03.468Z",
+      "skills": {
+        "a11y-audit": {
+          "integrity": "sha256-10440327064c1631972e38f62f3cc7249ff4c86abc93c8df00bc45b629c603cf"
+        },
+        "apply-aesthetic": {
+          "integrity": "sha256-a685c9964b0ea4e91e3af844e5ae80638fd3a4af641c101c2fa1f69ca48bd245"
+        },
+        "brandkit": {
+          "integrity": "sha256-315789ee811b0d9cdf3591cd9dfd21d872e26f4efcbe3ceb0b119dbd719cbc27"
+        },
+        "critique": {
+          "integrity": "sha256-44e19ce3a8469f523ea7c375ee6ce62f0fff09b9b369370a5c9d14c1d61862d7"
+        },
+        "data-dashboard": {
+          "integrity": "sha256-d81631c16aa24820eb0de7995c41bf27026728fcb0b791831070f5995552b68f"
+        },
+        "design-code": {
+          "integrity": "sha256-66fff9b3248487018273eaaf1ad94541772a1f571ea500ded09f8c8f7d4d3421"
+        },
+        "design-component": {
+          "integrity": "sha256-c43e07e836a34e873bad7ae790e63ba569103dcbd107ef974744557512652b53"
+        },
+        "design-doctrine": {
+          "integrity": "sha256-3a883657903d5fda9bc683bbf8ddcafcdbfaad37dc39b200c1b412ce6c112005"
+        },
+        "design-qa": {
+          "integrity": "sha256-83a63892f077430988850407014e7561379dd94a79ada6a3f8c4c7cf8ff00b5f"
+        },
+        "design-review": {
+          "integrity": "sha256-caccb26a408471a25f9a65e0230e617f1f007449f7b4f3099294051f5738b778"
+        },
+        "design-screen": {
+          "integrity": "sha256-da3292265e2358ad669322d247bf434ad98a1bb16139e1e080073ea2567bc05c"
+        },
+        "design-tokens": {
+          "integrity": "sha256-f00af75d5201509ea67159622f925d6708edccc4cea4baaef23d006733f20fc8"
+        },
+        "figma-integration": {
+          "integrity": "sha256-e5a335889e51548f70f3366f957517fc83f0e605f1eab60d0ca8edbe1116187f"
+        },
+        "gate": {
+          "integrity": "sha256-9af8b2a24f41fceb95f592749964e320a45eac7c818167d43732616003410e4d"
+        },
+        "governance": {
+          "integrity": "sha256-db139e30231b308db7f67c351a4f2135c52ef10364a9ce56124ae2fbbaac4413"
+        },
+        "grill-me": {
+          "integrity": "sha256-1a8fe695f4a2dbb66d1609f72d762c5d774fdc72adab7bf8ce9828f1b1098ed6"
+        },
+        "image-to-code": {
+          "integrity": "sha256-83834140f61036794d8748808d93c60ccdb60324d1eef9a40043e01e9fa91598"
+        },
+        "migrate-design-system": {
+          "integrity": "sha256-64558eb894d70a39109b208c87d0f3a9c9e442339112e404dfe35de3174da493"
+        },
+        "observe": {
+          "integrity": "sha256-e3d57bd8fa732955a19a2ff9ff60ce100628a2de657826b90427ca4a840b5cda"
+        },
+        "performance": {
+          "integrity": "sha256-9032dae7f7dbcd9af1c6d98e0d935973913373a5376d19d475f956ee3f61a879"
+        },
+        "prototype": {
+          "integrity": "sha256-fb4f0223564af721cb584193e8d87de457348d89cf7e4a732186b1b4f22da009"
+        },
+        "redesign": {
+          "integrity": "sha256-d012d54d1edf5a4ae8a91d284aa7318122475e1f940a544ef1f96aa877c1eafb"
+        },
+        "scaffold-project": {
+          "integrity": "sha256-38b00cc62d90a21f341ddcc04880e8039c78fcd1fd9863d0da5695e3b9d690b5"
+        },
+        "ship": {
+          "integrity": "sha256-51aa1ca6c29e45f439f20dd9e7a3e1d7f1f95dd63729e65ed61d0fc81c5e34c6"
+        },
+        "token-build": {
+          "integrity": "sha256-be2a1859625be0808b0dc6846fb0cc85e45529fae90eaa78d675d21f8f811352"
+        },
+        "ux-writing": {
+          "integrity": "sha256-9382ae3965199c295bdf0fec77a0e3ebfa07742872b023344790e1b7e3a86cff"
+        }
+      },
+      "skillSelection": [
+        "*"
+      ],
+      "skillsPath": ".claude/skills"
+    },
+    "sickn33/agentic-awesome-skills": {
+      "requestedRef": "main",
+      "resolvedRef": "2524603b436164927a4c3f55ba8409f4bb00a3e5",
+      "resolvedAt": "2026-11-17T17:00:05.810Z",
+      "skills": {
+        "brain-to-docs": {
+          "integrity": "sha256-49b5045532b66f0b3d3ce33dac87cf2bf84c19212eae01b1cfc3f1280332aa29"
+        },
+        "brainstorming": {
+          "integrity": "sha256-4b7cf94ebdb3aaabf270dc212e7dd946cbd7af3e51b489b78d093ff9a939a9e1"
+        }
+      },
+      "skillSelection": [
+        "brain-to-docs",
+        "brainstorming"
+      ],
+      "skillsPath": "skills"
+    },
+    "xz-dev/bdd-skill": {
+      "requestedRef": "main",
+      "resolvedRef": "5b77bb4f24a31aadcfb7c30697b738faab026391",
+      "resolvedAt": "2026-11-17T17:01:21.788Z",
+      "skills": {
+        "bdd": {
+          "integrity": "sha256-20ab67b779760263f150a0091460a0436e49bd43abe657ec47b342919b95461d"
+        }
+      },
+      "skillSelection": [
+        "*"
+      ],
+      "skillsPath": "skills"
+    },
+    "addyosmani/agent-skills": {
+      "requestedRef": "main",
+      "resolvedRef": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "resolvedAt": "2026-11-17T18:46:12.889Z",
+      "skills": {
+        "code-simplification": {
+          "integrity": "sha256-6593e19648ef76e0e726c25205acbd3c025dda92d477e59fb393061356847998"
+        },
+        "context-engineering": {
+          "integrity": "sha256-a8f6b5bc4948d723dfe71668532ee49e9dba733b264941a66f82f513016b5073"
+        },
+        "documentation-and-adrs": {
+          "integrity": "sha256-cd2b57ecf22351923a0474c990c3bbaeee8a0b831afc2a32c8b386faa49a85ee"
+        },
+        "idea-refine": {
+          "integrity": "sha256-0d342c2df758540d76616f19db248ff67e3fa46dcc92800a86b9b8d99a981462"
+        },
+        "interview-me": {
+          "integrity": "sha256-6b64430690d76fac95e23ef7c3945222a0f2f37b81d3a2daaa389459684a0f7c"
+        },
+        "test-driven-development": {
+          "integrity": "sha256-bfbd41172e28163fe8ada12dbc4dcba518fee75b796dce9a49b7fd6b6ff5af56"
+        }
+      },
+      "skillSelection": [
+        "code-simplification",
+        "context-engineering",
+        "documentation-and-adrs",
+        "idea-refine",
+        "interview-me",
+        "test-driven-development"
+      ],
+      "skillsPath": "skills"
+    },
+    "majiayu000/claude-skill-registry-data": {
+      "requestedRef": "a21980a5b576646393ed574f158d7dd92fae4c3f",
+      "resolvedRef": "a21980a5b576646393ed574f158d7dd92fae4c3f",
+      "resolvedAt": "2026-11-17T18:55:52.802Z",
+      "skills": {
+        "httpyac": {
+          "integrity": "sha256-16bbc1c5ecedaca3cd75970214b65bcb743d8e169530094a08f96aa588fd8db6"
+        }
+      },
+      "skillSelection": [
+        "httpyac"
+      ],
+      "skillsPath": "testing/httpyac"
+    }
+  }
+}

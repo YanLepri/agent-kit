@@ -1,0 +1,122 @@
+{
+  "$schema": "https://github.com/dyoshikawa/rulesync/releases/latest/download/config-schema.json",
+  "targets": [
+    "cursor",
+    "claudecode"
+  ],
+  "features": [
+    "rules",
+    "mcp",
+    "subagents",
+    "skills"
+  ],
+  "delete": false,
+  "verbose": false,
+  "silent": false,
+  "global": true,
+  "simulateCommands": false,
+  "simulateSubagents": false,
+  "simulateSkills": false,
+  "gitignoreTargetsOnly": true,
+  "sources": [
+    {
+      "source": "https://github.com/ar27111994/penpot-mcp.git",
+      "skills": [
+        "penpot-mcp"
+      ],
+      "transport": "git",
+      "path": "."
+    },
+    {
+      "source": "https://github.com/ciembor/agent-rules-books.git",
+      "skills": [
+        "a-philosophy-of-software-design",
+        "clean-architecture",
+        "clean-code",
+        "code-complete",
+        "designing-data-intensive-applications",
+        "domain-driven-design",
+        "domain-driven-design-distilled",
+        "implementing-domain-driven-design",
+        "patterns-of-enterprise-application-architecture",
+        "refactoring",
+        "refactoring-guru",
+        "release-it",
+        "the-pragmatic-programmer",
+        "working-effectively-with-legacy-code"
+      ],
+      "transport": "git",
+      "path": "."
+    },
+    {
+      "source": "https://github.com/shadcn/ui.git",
+      "skills": [
+        "shadcn"
+      ],
+      "transport": "git",
+      "path": "skills"
+    },
+    {
+      "source": "https://github.com/chiroro-jr/skills.git",
+      "skills": [
+        "dbml"
+      ],
+      "transport": "git",
+      "path": "."
+    },
+    {
+      "source": "https://github.com/github/awesome-copilot",
+      "skills": [
+        "conventional-commit"
+      ]
+    },
+    {
+      "source": "speakeasy-api/sdk-generation-skills",
+      "skills": [
+        "writing-openapi-specs",
+        "extract-openapi-from-code",
+        "manage-openapi-overlays"
+      ],
+      "path": "skills"
+    },
+    {
+      "source": "https://github.com/softaworks/agent-toolkit",
+      "skills": [
+        "mermaid-diagrams"
+      ]
+    },
+    {
+      "source": "plugin87/ux-ui-agent-skills",
+      "path": ".claude/skills"
+    },
+    {
+      "source": "sickn33/agentic-awesome-skills",
+      "skills": [
+        "brainstorming",
+        "brain-to-docs"
+      ]
+    },
+    {
+      "source": "https://github.com/xz-dev/bdd-skill"
+    },
+    {
+      "source": "addyosmani/agent-skills",
+      "skills": [
+        "test-driven-development",
+        "interview-me",
+        "idea-refine",
+        "context-engineering",
+        "code-simplification",
+        "documentation-and-adrs"
+      ]
+    },
+    {
+      "source": "majiayu000/claude-skill-registry-data",
+      "skills": [
+        "httpyac"
+      ],
+      "ref": "a21980a5b576646393ed574f158d7dd92fae4c3f",
+      "path": "testing/httpyac"
+    }
+  ]
+}
