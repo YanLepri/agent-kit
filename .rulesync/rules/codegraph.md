@@ -1,14 +1,14 @@
 ---
 root: true
 targets: ["*"]
-description: "Inicializa o CodeGraph no projeto e usa o índice antes de explorar o código"
+description: "Initialize CodeGraph in the project and query the index before exploring code"
 globs: ["**/*"]
 ---
 
 # CodeGraph
 
-Antes de procurar símbolo, chamada, arquivo ou estrutura neste projeto, use o CodeGraph.
+Before searching for a symbol, call, file, or structure in this project, use CodeGraph.
 
-1. Se a raiz do projeto não tiver `.codegraph/`, rode `codegraph init -y` nessa raiz e espere o índice terminar.
-2. Consulte o índice pelo MCP `codegraph`, passando o caminho do projeto. Use `codegraph explore` no terminal se o MCP não responder.
-3. Grep e leitura de arquivo ficam para o que o índice não cobrir, ou para quando o `codegraph` não estiver instalado.
+1. If the project root has no `.codegraph/` directory, run `codegraph init -y` there and wait for the index to finish.
+2. Query the index through the `codegraph` MCP server, passing the project path. If the MCP server does not respond, run `codegraph explore` in the terminal.
+3. Use Grep and file reads only for what the index does not cover, or when `codegraph` is not installed.
