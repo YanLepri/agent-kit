@@ -55,6 +55,7 @@ Servidores MCP:
 | sonarqube       | Issues, qualidade e cobertura. Exige Docker           |
 | shadcn          | Componentes do registro shadcn/ui                     |
 | atlassian       | Jira e Confluence. O login é no cliente               |
+| trello          | Quadros, listas e cartões. O login é no cliente       |
 | postgres        | Consultar o banco da `POSTGRES_MCP_CONNECTION_STRING` |
 | playwright      | Teste de browser                                      |
 | chrome-devtools | Inspecionar uma página no Chrome                      |

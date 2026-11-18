@@ -62,6 +62,10 @@
       "type": "http",
       "url": "https://mcp.atlassian.com/v2/mcp"
     },
+    "trello": {
+      "type": "http",
+      "url": "https://mcp.trello.com/v1"
+    },
     "postgres": {
       "type": "stdio",
       "command": "npx",
