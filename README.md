@@ -1,6 +1,6 @@
 # agent-kit
 
-Precisa do Rulesync na máquina: `npm install -g rulesync`. Também Node.js 22, pnpm, o comando `codegraph` no PATH, Docker em execução (SonarQube) e Chrome (DevTools).
+Precisa do Rulesync na máquina: `npm install -g rulesync`. Também Node.js 22, pnpm, o comando `codegraph` no PATH, Docker em execução (SonarQube) e Chrome (DevTools e a extensão Browser MCP).
 
 Exporte no ambiente:
 
@@ -60,6 +60,7 @@ Servidores MCP:
 | postgres        | Consultar o banco da `POSTGRES_MCP_CONNECTION_STRING` |
 | playwright      | Teste de browser                                      |
 | chrome-devtools | Inspecionar uma página no Chrome                      |
+| browsermcp      | Abrir, clicar e preencher no Chrome em que você está logado |
 
 ## Como usar
 
@@ -69,3 +70,15 @@ Servidores MCP:
 4. Skill não se chama à parte. "Escreve o `.http` desse endpoint" já usa `httpyac`.
 5. MCP também entra pelo pedido. "Olha esse issue no Sonar" usa o `sonarqube`. Atlassian e GitLab pedem login na primeira vez.
 6. A rule do CodeGraph vale em todo projeto. Sem a pasta `.codegraph/` na raiz, o agente roda `codegraph init -y` e passa a consultar o índice antes de vasculhar o código.
+
+## Browser MCP
+
+O servidor `browsermcp` dirige o Chrome, o Edge ou o Brave em que você já está logado. O agente abre páginas, clica e preenche formulários em abas próprias. Você vê essas abas e para o agente pelo popup da extensão.
+
+1. Instale a [extensão Browser MCP](https://chromewebstore.google.com/detail/browser-mcp-let-ai-use-yo/bjfgambnhccakkhmkepdoekmckoijdlc) e fixe o ícone na barra de ferramentas.
+2. Rode `./generate.sh` e reinicie o Cursor e o Claude Code. Até um dos dois subir o servidor, o popup diz "Waiting for the Browser MCP server".
+3. Peça para abrir uma página. A primeira resposta traz um código de seis dígitos.
+4. Clique no ícone da extensão. O popup mostra um código. Ele precisa ser o mesmo da última mensagem do agente. Confira e clique em Allow. Esse clique vale para este computador.
+5. Peça de novo. O popup passa a dizer "Connected to the Browser MCP server".
+
+Se o código do popup for outro, peça de novo e compare o código novo antes de clicar em Allow. O guia completo está em [browsermcp.io/docs](https://browsermcp.io/docs).

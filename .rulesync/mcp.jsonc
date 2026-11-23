@@ -96,6 +96,13 @@
         "-y",
         "chrome-devtools-mcp@latest"
       ]
+    },
+    "browsermcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@browsermcp/mcp@latest"
+      ]
     }
   }
 }
