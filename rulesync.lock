@@ -327,6 +327,110 @@
         "httpyac"
       ],
       "skillsPath": "testing/httpyac"
+    },
+    "robotcodedev/robotframework-agent-plugins": {
+      "requestedRef": "main",
+      "resolvedRef": "86a864136d74f8b0f0e4e2d5f92ee218fbeae95c",
+      "resolvedAt": "2026-11-23T15:11:52.937Z",
+      "skills": {
+        "robotcode": {
+          "integrity": "sha256-8729b3e570c134ef612ed61a2a00744e8561152e1ba544c4eca89f94984b712b"
+        }
+      },
+      "skillSelection": [
+        "robotcode"
+      ],
+      "skillsPath": "plugins/robotcode/skills"
+    },
+    "marketsquare/robotframework-plugins#path=plugins/rf-core/skills": {
+      "requestedRef": "main",
+      "resolvedRef": "af68a198dfe837e3a4e0fc9b64a24156f4fa44e3",
+      "resolvedAt": "2026-11-23T15:11:52.999Z",
+      "skills": {
+        "rf-bdd": {
+          "integrity": "sha256-aa7df768ebe30dad76363048de2577b1859d38dd8dd8e912233f43b98ea531ff"
+        },
+        "rf-language": {
+          "integrity": "sha256-527b2143e187af80ffd485b3c8e2a32c18ab0a982c3fbcb337f465e1b23332c2"
+        },
+        "rf-python-library": {
+          "integrity": "sha256-836317153b3de2aebffc417fa4cb76814663da02f9b4438e3aab420b319bb637"
+        },
+        "rf-setup": {
+          "integrity": "sha256-8516aa7252b62732ce5b6f55868542c15a9a17c9c961e9c02f43365d33ad9e53"
+        }
+      },
+      "skillSelection": [
+        "rf-bdd",
+        "rf-language",
+        "rf-python-library",
+        "rf-setup"
+      ],
+      "skillsPath": "plugins/rf-core/skills"
+    },
+    "marketsquare/robotframework-plugins#path=plugins/rf-web/skills": {
+      "requestedRef": "main",
+      "resolvedRef": "af68a198dfe837e3a4e0fc9b64a24156f4fa44e3",
+      "resolvedAt": "2026-11-23T15:11:53.077Z",
+      "skills": {
+        "rf-browser": {
+          "integrity": "sha256-3ef220cde90eb5af967f8023a909a27c9083b382eda22d04855ee449751856c4"
+        },
+        "rf-selenium": {
+          "integrity": "sha256-dd348f4d8cd70b2d358ea167dd72c4f6b0db7b6f399d90da1f17a9cc2f0b2e85"
+        }
+      },
+      "skillSelection": [
+        "rf-browser",
+        "rf-selenium"
+      ],
+      "skillsPath": "plugins/rf-web/skills"
+    },
+    "marketsquare/robotframework-plugins#path=plugins/rf-api/skills": {
+      "requestedRef": "main",
+      "resolvedRef": "af68a198dfe837e3a4e0fc9b64a24156f4fa44e3",
+      "resolvedAt": "2026-11-23T15:11:53.130Z",
+      "skills": {
+        "rf-requests": {
+          "integrity": "sha256-5f5b8d1f5215f30b8087af39db358b4c53fd49d948b625280bc66f034617d273"
+        },
+        "rf-restinstance": {
+          "integrity": "sha256-28166eb9d8d976f6a88bb55beb0d54bf5cc56b0012f1c3e0adec462b09307211"
+        }
+      },
+      "skillSelection": [
+        "rf-requests",
+        "rf-restinstance"
+      ],
+      "skillsPath": "plugins/rf-api/skills"
+    },
+    "marketsquare/robotframework-plugins#path=plugins/rf-mobile/skills": {
+      "requestedRef": "main",
+      "resolvedRef": "af68a198dfe837e3a4e0fc9b64a24156f4fa44e3",
+      "resolvedAt": "2026-11-23T15:11:53.231Z",
+      "skills": {
+        "rf-appium": {
+          "integrity": "sha256-72a02caa444ed7f08995ffca025205df1a6a39582c3e81c2110a8214e6ebf8be"
+        }
+      },
+      "skillSelection": [
+        "rf-appium"
+      ],
+      "skillsPath": "plugins/rf-mobile/skills"
+    },
+    "marketsquare/robotframework-plugins#path=plugins/rf-desktop/skills": {
+      "requestedRef": "main",
+      "resolvedRef": "af68a198dfe837e3a4e0fc9b64a24156f4fa44e3",
+      "resolvedAt": "2026-11-23T15:11:53.332Z",
+      "skills": {
+        "rf-platynui": {
+          "integrity": "sha256-d47b3700d6346c97439638c74e3572c0c41f23608d5e364ca046e29aca45f401"
+        }
+      },
+      "skillSelection": [
+        "rf-platynui"
+      ],
+      "skillsPath": "plugins/rf-desktop/skills"
     }
   }
 }

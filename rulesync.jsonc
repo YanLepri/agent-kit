@@ -117,6 +117,53 @@
       ],
       "ref": "a21980a5b576646393ed574f158d7dd92fae4c3f",
       "path": "testing/httpyac"
+    },
+    {
+      "source": "https://github.com/robotcodedev/robotframework-agent-plugins",
+      "skills": [
+        "robotcode"
+      ],
+      "path": "plugins/robotcode/skills"
+    },
+    {
+      "source": "https://github.com/MarketSquare/robotframework-plugins",
+      "skills": [
+        "rf-language",
+        "rf-setup",
+        "rf-python-library",
+        "rf-bdd"
+      ],
+      "path": "plugins/rf-core/skills"
+    },
+    {
+      "source": "https://github.com/MarketSquare/robotframework-plugins",
+      "skills": [
+        "rf-browser",
+        "rf-selenium"
+      ],
+      "path": "plugins/rf-web/skills"
+    },
+    {
+      "source": "https://github.com/MarketSquare/robotframework-plugins",
+      "skills": [
+        "rf-requests",
+        "rf-restinstance"
+      ],
+      "path": "plugins/rf-api/skills"
+    },
+    {
+      "source": "https://github.com/MarketSquare/robotframework-plugins",
+      "skills": [
+        "rf-appium"
+      ],
+      "path": "plugins/rf-mobile/skills"
+    },
+    {
+      "source": "https://github.com/MarketSquare/robotframework-plugins",
+      "skills": [
+        "rf-platynui"
+      ],
+      "path": "plugins/rf-desktop/skills"
     }
   ]
 }

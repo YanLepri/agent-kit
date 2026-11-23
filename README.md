@@ -61,6 +61,7 @@ Servidores MCP:
 | playwright      | Teste de browser                                      |
 | chrome-devtools | Inspecionar uma página no Chrome                      |
 | browsermcp      | Abrir, clicar e preencher no Chrome em que você está logado |
+| robotmcp        | Executar keywords ao vivo e gravar a suíte `.robot`. Exige uv |
 
 ## Como usar
 
@@ -82,3 +83,15 @@ O servidor `browsermcp` dirige o Chrome, o Edge ou o Brave em que você já est�
 5. Peça de novo. O popup passa a dizer "Connected to the Browser MCP server".
 
 Se o código do popup for outro, peça de novo e compare o código novo antes de clicar em Allow. O guia completo está em [browsermcp.io/docs](https://browsermcp.io/docs).
+
+## Robot Framework
+
+A configuração segue a [página oficial](https://robotframework.org/ai). A skill `robotcode` ensina o agente a consultar keywords, rodar testes e ler o resultado com o CLI do projeto. As demais vêm do [MarketSquare](https://github.com/MarketSquare/robotframework-plugins): `rf-language`, `rf-setup`, `rf-python-library`, `rf-bdd`, `rf-browser`, `rf-selenium`, `rf-requests`, `rf-restinstance`, `rf-appium` e `rf-platynui`.
+
+No projeto de teste, instale o CLI:
+
+```bash
+pip install "robotcode[all]"
+```
+
+O servidor `robotmcp` executa keywords ao vivo e grava a suíte `.robot`. A máquina precisa de `uv` e Python 3.10 ou mais. Na primeira vez com a Browser Library, rode `robotmcp init --browsers`.

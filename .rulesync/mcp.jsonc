@@ -103,6 +103,15 @@
       "args": [
         "@browsermcp/mcp@latest"
       ]
+    },
+    "robotmcp": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "rf-mcp[all]",
+        "robotmcp"
+      ]
     }
   }
 }
