@@ -66,6 +66,10 @@
       "type": "http",
       "url": "https://mcp.trello.com/v1"
     },
+    "gitlab": {
+      "type": "http",
+      "url": "https://gitlab.com/api/v4/mcp"
+    },
     "postgres": {
       "type": "stdio",
       "command": "npx",

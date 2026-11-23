@@ -56,6 +56,7 @@ Servidores MCP:
 | shadcn          | Componentes do registro shadcn/ui                     |
 | atlassian       | Jira e Confluence. O login é no cliente               |
 | trello          | Quadros, listas e cartões. O login é no cliente       |
+| gitlab          | Issues, merge requests e CI. O login é no cliente     |
 | postgres        | Consultar o banco da `POSTGRES_MCP_CONNECTION_STRING` |
 | playwright      | Teste de browser                                      |
 | chrome-devtools | Inspecionar uma página no Chrome                      |
@@ -66,5 +67,5 @@ Servidores MCP:
 2. Rode `./generate.sh` e reinicie o Cursor e o Claude Code.
 3. Peça o trabalho na conversa. "Revisa esse código" chama o `code-reviewer`. "Faz o commit" chama o `commit-writer`. Para escolher um, cite o nome.
 4. Skill não se chama à parte. "Escreve o `.http` desse endpoint" já usa `httpyac`.
-5. MCP também entra pelo pedido. "Olha esse issue no Sonar" usa o `sonarqube`. O Atlassian pede login na primeira vez.
+5. MCP também entra pelo pedido. "Olha esse issue no Sonar" usa o `sonarqube`. Atlassian e GitLab pedem login na primeira vez.
 6. A rule do CodeGraph vale em todo projeto. Sem a pasta `.codegraph/` na raiz, o agente roda `codegraph init -y` e passa a consultar o índice antes de vasculhar o código.
