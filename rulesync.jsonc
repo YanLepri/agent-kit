@@ -164,6 +164,40 @@
         "rf-platynui"
       ],
       "path": "plugins/rf-desktop/skills"
+    },
+    {
+      "source": "PyModel/react-frontend-skills",
+      "skills": [
+        "react",
+        "nextjs",
+        "tailwind",
+        "feature-arch",
+        "typescript",
+        "vercel-composition-patterns",
+        "vercel-react-best-practices",
+        "web-design-guidelines",
+        "zod"
+      ],
+      "path": "skills"
+    },
+    {
+      "source": "miqdadbadjuber/anti-slop",
+      "skills": [
+        "antislop",
+        "antislop-code",
+        "antislop-copywriting",
+        "antislop-human",
+        "antislop-layoutmobile",
+        "antislop-ui"
+      ],
+      "path": "skills"
+    },
+    {
+      "source": "antfu/skills",
+      "skills": [
+        "vue"
+      ],
+      "path": "skills"
     }
   ]
 }

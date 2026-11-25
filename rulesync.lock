@@ -431,6 +431,100 @@
         "rf-platynui"
       ],
       "skillsPath": "plugins/rf-desktop/skills"
+    },
+    "pymodel/react-frontend-skills": {
+      "requestedRef": "main",
+      "resolvedRef": "85f6b473fa54e3df9276b1aa52470e2cecf86931",
+      "resolvedAt": "2026-11-25T12:58:50.797Z",
+      "skills": {
+        "feature-arch": {
+          "integrity": "sha256-1fbe50fddb2b211e1baa2237c2a72391c4ab3473afeed5ca3904b3078b8db154"
+        },
+        "nextjs": {
+          "integrity": "sha256-6302cfe5e52f6feaa51c10df7f6cc49644eb08e8ce5fab08938a1f353d76e113"
+        },
+        "react": {
+          "integrity": "sha256-7a22044f745246413e6103334759a974c9e8b3bad3805266b3edc22b6545045c"
+        },
+        "tailwind": {
+          "integrity": "sha256-afc163ddbdf634cfc2ec2174240b3da403cb0bc176cbcf15488e589c300fd6f5"
+        },
+        "typescript": {
+          "integrity": "sha256-2bf0bfee638371bd4ca45d20aedd95e130f41acb3d44da814fc735ff9c8fbbf0"
+        },
+        "vercel-composition-patterns": {
+          "integrity": "sha256-709c86e71b45ca0e4592c99b05ca14e92fad37976af604d3ae51bab7b6198dc5"
+        },
+        "vercel-react-best-practices": {
+          "integrity": "sha256-58b717e3b536ea52851af2dde6c102b16497b04dcd2ff54854a719d466ac7dc3"
+        },
+        "web-design-guidelines": {
+          "integrity": "sha256-77d745a2c1ed299950a222468519f1e1be8446c7947e4cc39f7360a57ef5b023"
+        },
+        "zod": {
+          "integrity": "sha256-c40c9b380ecbf0556a47c833978e46916dcdda8f057839facda86068adf0380b"
+        }
+      },
+      "skillSelection": [
+        "feature-arch",
+        "nextjs",
+        "react",
+        "tailwind",
+        "typescript",
+        "vercel-composition-patterns",
+        "vercel-react-best-practices",
+        "web-design-guidelines",
+        "zod"
+      ],
+      "skillsPath": "skills"
+    },
+    "miqdadbadjuber/anti-slop": {
+      "requestedRef": "main",
+      "resolvedRef": "7f6a03df2931c12cb244dc4ab14ee4866b0ac2ba",
+      "resolvedAt": "2026-11-25T13:02:01.074Z",
+      "skills": {
+        "antislop-code": {
+          "integrity": "sha256-406c826a38515a757a17772e0b1ce53a5541d2f43e72e1332b8a6fa2129afd9a"
+        },
+        "antislop-copywriting": {
+          "integrity": "sha256-b331b536b020b328c1ebecfe6c710d104a3b415d8130b83bc87bc51e09c679fe"
+        },
+        "antislop-human": {
+          "integrity": "sha256-2c5458a97b6acded698777c5d4da7a40bc07909e4bc45ff371457bf579e413fd"
+        },
+        "antislop-layoutmobile": {
+          "integrity": "sha256-44c406f2872e2a23081868b41978297b9bfd453ee79320f20fb13306eef0cde6"
+        },
+        "antislop-ui": {
+          "integrity": "sha256-1c86908141656aed80297100bcc21c032b46db3c531fcdb0bd6438a9b44c7b44"
+        },
+        "antislop": {
+          "integrity": "sha256-c85cca9d8d92d52d8dea0a2551f5f2759dc81f0fbc481c12db2891456edd5514"
+        }
+      },
+      "skillSelection": [
+        "antislop",
+        "antislop-code",
+        "antislop-copywriting",
+        "antislop-human",
+        "antislop-layoutmobile",
+        "antislop-ui"
+      ],
+      "skillsPath": "skills"
+    },
+    "antfu/skills": {
+      "requestedRef": "main",
+      "resolvedRef": "4a6bb39e7b45e26402eb215393c51ccf5df1ca4c",
+      "resolvedAt": "2026-11-25T13:06:55.112Z",
+      "skills": {
+        "vue": {
+          "integrity": "sha256-e3c201d0d0475c88160f12a1c8dc07c6e01d47fd1caa6638aa7cf0fb7aac5ac5"
+        }
+      },
+      "skillSelection": [
+        "vue"
+      ],
+      "skillsPath": "skills"
     }
   }
 }
